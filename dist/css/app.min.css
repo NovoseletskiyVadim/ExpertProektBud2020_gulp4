@@ -498,7 +498,7 @@ iframe.maps {
   }
   .mainImage {
     height: 100vh;
-    background-image: url(../img/exp.jpg)
+    background-image: url(../images/dest/img/exp.jpg)
   }
   .mainImage img {
     display: none
