@@ -1,0 +1,44 @@
+
+.bti{
+    
+    h3{font-size: 1.7em;}
+
+    h3::first-letter{
+        text-transform: capitalize;
+    }
+
+    color: #6f6f6f;
+    font-size: 1.5em;
+
+    ul{
+        // width: 90%;
+        list-style-type: disc;
+        margin-left: 3em;
+        li{
+
+            padding-left: 1em;
+            text-align: justify;
+            padding-right: 0.5em;
+        }
+        
+    }
+
+    p{
+        display: inline-block;
+        width: 80%;
+        text-align: justify;
+        margin-bottom: 2em;
+    }
+
+    img{
+        width: 60%;
+        display: inline-block;
+    }
+
+    button{ 
+        font-size: 1em;
+        padding:0.5em;
+        border-radius: 0.5em;
+        width: 30%;}
+    
+} 
