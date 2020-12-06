@@ -2208,7 +2208,9 @@ section {
   }
   .icons a {
     background-color: #f0f0f0;
-    margin-bottom: 2em
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: inline-block
   }
 }
 @media only screen and (min-width:480px) and (max-width:629px) {
