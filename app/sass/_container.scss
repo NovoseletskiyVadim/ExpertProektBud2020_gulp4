@@ -1,7 +1,8 @@
 .container{
 	width: 100%;
 	margin: 0 auto;
-	// max-width: 1024px;
+	// min-width: 280px;
+	// max-width: 1379px;
 }
 
 .container .cols{
@@ -23,7 +24,7 @@
 .container .cols.col-9,
 .container .cols.col-10,
 .container .cols.col-11,
-.container .cols.col-12{width: 100%}
+.container .cols.col-12{width: 100%;}
 
 
 
