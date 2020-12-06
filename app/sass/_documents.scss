@@ -13,24 +13,43 @@
             margin-bottom: 1em;
             font-weight: bold;
             font-size: 1.2em;
+            color:#0041ed;
         }
-
+        
+        
         ul{
             width: 90%;
             display: inline-block;
 
+            .noList{
+                list-style-type: none;
+                font-weight: bold;
+                color: #0041ed;
+            }
+
+            .noListForUl{
+                list-style-type: none;  
+            }
+            
             li{
                 font-size: 1.5em;
                 padding-top: 0.5em;
                 text-align: justify;
-
+                
+                
+                
                 ul{
                     list-style-position: inside;
                     li{
+                        list-style-type: disc;
+                        color:#0041ed;
                         font-size: 1em;
                         padding-top: 0.5em;
                         padding-left: 1em;
                         text-align: justify; 
+
+                        span{ color:#6f6f6f;}
+                        
                     }
                 }
             }
@@ -62,7 +81,168 @@
 }
 
 
+@media only screen and (min-width : 280px) and (max-width : 479px){
 
+    .documents{
+
+        div{
+    
+            ul{
+                width: 85%;
+    
+                li{
+                    font-size: 1.2em;
+                    padding-top: 0.5em;
+                }
+            }
+    
+            h4.attention{
+                font-size: 1.4em;
+            }
+    
+            p.attentionText{
+    
+                span{
+                    font-size: 1.2em;
+                    margin-left: 0;
+                    width: 80%;
+                    text-align: justify;
+                
+                }
+    
+            }
+        } 
+        
+    }
+
+
+}
+
+@media only screen and (min-width : 480px) and (max-width : 629px){
+
+	
+}
+
+@media only screen and (min-width : 630px) and (max-width : 767px){
+
+	
+
+
+}
+
+@media only screen and (min-width : 767px) and (max-width : 849px) {
+
+
+.container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+
+	
+
+}
+
+@media screen and (min-width: 850px) and (max-width:991px) {
+
+  .container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+	
+}
+
+@media screen and (min-width : 991px) and (max-width : 1023px){
+
+	.container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+ 
+
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1199px){
+
+	.container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+  
+}
+
+@media only screen and (min-width : 1199px) and (max-width : 1379px){
+
+	.container .cols.col-1{width: 8.333333333333333%;}
+  .container .cols.col-2{width: 16.66666666666667%;}
+  .container .cols.col-3{width: 25%;}
+  .container .cols.col-4{width: 33.33333333333333%;}
+  .container .cols.col-5{width: 41.66666666666667%;}
+  .container .cols.col-6{width: 50%;}
+  .container .cols.col-7{width: 58.33333333333333%;}
+  .container .cols.col-8{width: 66.66666666666667%;}
+  .container .cols.col-9{width: 75%;}
+  .container .cols.col-10{width: 83.33333333333333%;}
+  .container .cols.col-11{width: 91.66666666666667%;}
+  .container .cols.col-12{width: 100%}
+
+	
+}
+
+@media only screen and (min-width : 1379px) and (max-width : 1920px){
+
+	.container .cols.col-1{width: 8.333333333333333%;}
+	.container .cols.col-2{width: 16.66666666666667%;}
+	.container .cols.col-3{width: 25%;}
+	.container .cols.col-4{width: 33.33333333333333%;}
+	.container .cols.col-5{width: 41.66666666666667%;}
+	.container .cols.col-6{width: 50%;}
+	.container .cols.col-7{width: 58.33333333333333%;}
+	.container .cols.col-8{width: 66.66666666666667%;}
+	.container .cols.col-9{width: 75%;}
+	.container .cols.col-10{width: 83.33333333333333%;}
+	.container .cols.col-11{width: 91.66666666666667%;}
+	.container .cols.col-12{width: 100%}
+
+    
+    
+
+}
 
 
 
