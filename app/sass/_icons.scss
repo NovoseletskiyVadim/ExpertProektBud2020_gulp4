@@ -85,12 +85,72 @@
 
 @media only screen and (min-width : 480px) and (max-width : 629px){
 
-	
+	.accredit>img{
+        width: 40%;
+    }
+
+    .downDoc>img{
+        width: 40%;  
+    }
+
+    .expert-result>img{
+        width: 40%;
+    }
+
+    .icons {
+
+        margin-top: 1em;
+
+        p{
+            margin-top: 1em;
+            margin-bottom: 1em;
+            width: 80%;
+            height:2em ;
+            font-size: 1.3em;
+            display: inline-block;
+        }
+
+        a{
+            background-color: #f0f0f0;
+            margin-bottom: 2em;
+            display: inline-block;
+        }
+    }    
 }
 
 @media only screen and (min-width : 630px) and (max-width : 767px){
 
-	
+	.accredit>img{
+        width: 40%;
+    }
+
+    .downDoc>img{
+        width: 40%;  
+    }
+
+    .expert-result>img{
+        width: 40%;
+    }
+
+    .icons {
+
+        margin-top: 1em;
+
+        p{
+            margin-top: 1em;
+            margin-bottom: 1em;
+            width: 80%;
+            height:2em ;
+            font-size: 1.3em;
+            display: inline-block;
+        }
+
+        a{
+            background-color: #f0f0f0;
+            margin-bottom: 2em;
+            display: inline-block;
+        }
+    }    
 
 
 }
