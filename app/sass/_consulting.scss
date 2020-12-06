@@ -59,12 +59,56 @@
 
 @media only screen and (min-width : 480px) and (max-width : 629px){
 
-	
+  .consulting{
+    
+    
+    p{
+        font-size: 1.3em;
+        width: 95%;
+        display: inline-block;
+    }
+
+    ul{
+        width: 85%;
+        display: inline-block;
+
+        li{
+            font-size: 1.3em;
+            padding-top: 0.5em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            text-align: justify;
+        }
+    }
+    
+  }
 }
 
 @media only screen and (min-width : 630px) and (max-width : 767px){
 
-	
+	.consulting{
+    
+    
+    p{
+        font-size: 1.3em;
+        width: 95%;
+        display: inline-block;
+    }
+
+    ul{
+        width: 85%;
+        display: inline-block;
+
+        li{
+            font-size: 1.3em;
+            padding-top: 0.5em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            text-align: justify;
+        }
+    }
+    
+  }
 
 
 }
