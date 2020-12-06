@@ -74,6 +74,8 @@
 
 
 
+
+
 @media (min-width: 768px) and (max-width: 979px) {
 
     .menu{
@@ -100,16 +102,13 @@
         margin-bottom: 1em;
         width: 100%;
 
-        border:1px solid yellow;            border-left: 2px solid yellow;
-        // border-right: 2px solid yellow;
+        border:4px solid blue;         
         a{
             text-decoration: none;
-            // dis
-            // border-bottom:5px solid red;
         }
-    };
+    }
 
-    .mobile-menu{display:block;}
+    .mobile-menu{display:block;width: 100%;}
 
     .menu{
         display:none;
