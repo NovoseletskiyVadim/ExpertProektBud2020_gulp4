@@ -13,6 +13,7 @@
 
         list-style-type: disc;
         margin-left: 1em;
+        display: inline-block;
 
         li{
 
@@ -62,6 +63,7 @@
                 font-size:1.2em;
                 padding-left: 0.2em;
                 padding-right: 0.5em;
+                font-size: 1.2em;
                 
             }
 
@@ -88,15 +90,18 @@
         ul{
 
             margin-left:1.5em;
+            width: 90%;
 
             li{
-
+                font-size: 1.3em;
                 padding-left: 0.2em;
                 text-align: justify;
                 padding-right: 0.5em;
             }
         
         }
+
+        p{font-size: 1.3em; width: 90%;}
 
         button{ 
             font-size: 0.9em;
@@ -111,18 +116,23 @@
 
 @media only screen and (min-width : 630px) and (max-width : 767px){
 
-  .bti{
+    .bti{
 
-    ul{
-      margin-left:1.5em;
-      li{
+        ul{
 
-          padding-left: 0.2em;
-          text-align: justify;
-          padding-right: 0.5em;
-      }
-      
-  }
+            margin-left:1.5em;
+            width: 90%;
+
+            li{
+                font-size: 1.3em;
+                padding-left: 0.2em;
+                text-align: justify;
+                padding-right: 0.5em;
+            }
+        
+        }
+
+        p{font-size: 1.3em; width: 90%;}
 
         button{ 
             font-size: 0.9em;
