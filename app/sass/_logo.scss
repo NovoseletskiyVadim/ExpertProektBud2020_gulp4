@@ -34,12 +34,16 @@
             text-transform: capitalize;
         }
         :nth-child(2){
-            text-transform: uppercase;
+            text-transform: capitalize;
         }
 
         :nth-child(3){
             text-transform: capitalize;
         }
+        :nth-child(5){
+            text-transform: capitalize;
+        }
+        
     }
 }
 
