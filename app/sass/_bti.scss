@@ -255,7 +255,37 @@
 	.container .cols.col-11{width: 91.66666666666667%;}
 	.container .cols.col-12{width: 100%}
 
-	
+	.bti{
+
+        h3{font-size: 2.2em;margin-bottom: 1em;}
+
+        ul{
+
+            width: 95%;
+            
+            li{
+                margin-left:0.5em;
+                text-align: justify;
+                padding-left: 0.2em;
+                padding-right: 0.5em;
+                font-size: 1.7em;
+                
+            }
+
+            
+        }
+
+        p{font-size: 1.7em; width: 95%;}
+
+        button{ 
+
+            font-size: 1.3em;
+            width: 30%;
+            height: 3em;
+            margin-bottom: 2em;
+        }
+            
+    }
 
 }
 

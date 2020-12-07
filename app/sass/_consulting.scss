@@ -222,7 +222,29 @@
 	.container .cols.col-11{width: 91.66666666666667%;}
 	.container .cols.col-12{width: 100%}
 
+  .consulting{
     
+    
+    p{
+        font-size: 1.7em;
+        width: 95%;
+        display: inline-block;
+    }
+
+    ul{
+        width: 85%;
+        display: inline-block;
+
+        li{
+            font-size: 1.7em;
+            padding-top: 0.5em;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+            text-align: justify;
+        }
+    }
+    
+}
     
 
 }

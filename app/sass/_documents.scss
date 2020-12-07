@@ -314,7 +314,44 @@
 	.container .cols.col-11{width: 91.66666666666667%;}
 	.container .cols.col-12{width: 100%}
 
+    .documents{
+
+        div{
     
+            ul{
+                width: 85%;
+    
+                li{
+                    font-size:1.7em;
+                    padding-top:0.5em;
+
+                    .noListForUl{
+
+                        li{font-size: 1.7em;}
+                    }
+                }
+            }
+
+            p{font-size: 1.7em;}
+    
+            h4.attention{
+                font-size: 1.7em;
+            }
+    
+            p.attentionText{
+    
+                span{
+                    font-size: 1.4em;
+                    margin-left: 0;
+                    width: 80%;
+                    text-align: justify;
+                
+                }
+    
+            }
+        } 
+        
+    }
     
 
 }
