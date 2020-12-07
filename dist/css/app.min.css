@@ -895,6 +895,19 @@ section {
   .container .cols.col-12 {
     width: 100%
   }
+  .service img {
+    width: 26%;
+    margin: 1.6em
+  }
+  .service h3 {
+    font-size: 2.2em
+  }
+  .service ul {
+    width: 95%
+  }
+  .service ul li {
+    font-size: 1.7em
+  }
 }
 .direction {
   color: #6f6f6f
@@ -1170,6 +1183,15 @@ section {
   }
   .container .cols.col-12 {
     width: 100%
+  }
+  .direction h3 {
+    font-size: 2.2em
+  }
+  .direction ul {
+    width: 85%
+  }
+  .direction ul li {
+    font-size: 1.7em
   }
 }
 .consulting {
@@ -1472,6 +1494,22 @@ section {
   }
   .container .cols.col-12 {
     width: 100%
+  }
+  .consulting p {
+    font-size: 1.7em;
+    width: 95%;
+    display: inline-block
+  }
+  .consulting ul {
+    width: 85%;
+    display: inline-block
+  }
+  .consulting ul li {
+    font-size: 1.7em;
+    padding-top: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    text-align: justify
   }
 }
 .bti {
@@ -1799,6 +1837,30 @@ section {
   }
   .container .cols.col-12 {
     width: 100%
+  }
+  .bti h3 {
+    font-size: 2.2em;
+    margin-bottom: 1em
+  }
+  .bti ul {
+    width: 95%
+  }
+  .bti ul li {
+    margin-left: .5em;
+    text-align: justify;
+    padding-left: .2em;
+    padding-right: .5em;
+    font-size: 1.7em
+  }
+  .bti p {
+    font-size: 1.7em;
+    width: 95%
+  }
+  .bti button {
+    font-size: 1.3em;
+    width: 30%;
+    height: 3em;
+    margin-bottom: 2em
   }
 }
 .documents div {
@@ -2149,6 +2211,28 @@ section {
   .container .cols.col-12 {
     width: 100%
   }
+  .documents div ul {
+    width: 85%
+  }
+  .documents div ul li {
+    font-size: 1.7em;
+    padding-top: .5em
+  }
+  .documents div ul li .noListForUl li {
+    font-size: 1.7em
+  }
+  .documents div p {
+    font-size: 1.7em
+  }
+  .documents div h4.attention {
+    font-size: 1.7em
+  }
+  .documents div p.attentionText span {
+    font-size: 1.4em;
+    margin-left: 0;
+    width: 80%;
+    text-align: justify
+  }
 }
 .accredit > img {
   width: 50%
@@ -2186,13 +2270,13 @@ section {
   background-color: #f0f0f0
 }
 @media only screen and (min-width:280px) and (max-width:479px) {
-  .accredit > img {
+  .accredit img {
     width: 40%
   }
-  .downDoc > img {
+  .downDoc img {
     width: 40%
   }
-  .expert-result > img {
+  .expert-result img {
     width: 40%
   }
   .icons {
@@ -2214,13 +2298,13 @@ section {
   }
 }
 @media only screen and (min-width:480px) and (max-width:629px) {
-  .accredit > img {
+  .accredit img {
     width: 40%
   }
-  .downDoc > img {
+  .downDoc img {
     width: 40%
   }
-  .expert-result > img {
+  .expert-result img {
     width: 40%
   }
   .icons {
@@ -2241,13 +2325,13 @@ section {
   }
 }
 @media only screen and (min-width:630px) and (max-width:767px) {
-  .accredit > img {
+  .accredit img {
     width: 40%
   }
-  .downDoc > img {
+  .downDoc img {
     width: 40%
   }
-  .expert-result > img {
+  .expert-result img {
     width: 40%
   }
   .icons {
@@ -2494,6 +2578,41 @@ section {
   .container .cols.col-12 {
     width: 100%
   }
+  .accredit div {
+    height: 20em
+  }
+  .accredit div img {
+    width: 50%
+  }
+  .downDoc div {
+    height: 20em
+  }
+  .downDoc div img {
+    width: 50%
+  }
+  .expert-result div {
+    height: 20em
+  }
+  .expert-result div img {
+    width: 45%
+  }
+  .icons {
+    margin-top: 1em
+  }
+  .icons p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 2em;
+    font-size: 1.7em
+  }
+  .icons a {
+    background-color: #f0f0f0;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: inline-block;
+    font-size: 1.2em;
+    width: 40%
+  }
 }
 .contacts {
   color: #6f6f6f
@@ -2516,6 +2635,272 @@ section {
 }
 iframe.maps {
   width: 90%
+}
+@media only screen and (min-width:280px) and (max-width:479px) {
+  .bti ul {
+    width: 95%
+  }
+  .bti ul li {
+    margin-left: .5em;
+    text-align: justify;
+    font-size: 1.2em;
+    padding-left: .2em;
+    padding-right: .5em;
+    font-size: 1.2em
+  }
+  .bti p {
+    font-size: 1.2em;
+    width: 95%
+  }
+  .bti button {
+    font-size: .9em;
+    width: 50%;
+    margin-bottom: 2em
+  }
+}
+@media only screen and (min-width:767px) and (max-width:849px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%
+  }
+  .container .cols.col-2 {
+    width: 16.66666666666667%
+  }
+  .container .cols.col-3 {
+    width: 25%
+  }
+  .container .cols.col-4 {
+    width: 33.33333333333333%
+  }
+  .container .cols.col-5 {
+    width: 41.66666666666667%
+  }
+  .container .cols.col-6 {
+    width: 50%
+  }
+  .container .cols.col-7 {
+    width: 58.33333333333333%
+  }
+  .container .cols.col-8 {
+    width: 66.66666666666667%
+  }
+  .container .cols.col-9 {
+    width: 75%
+  }
+  .container .cols.col-10 {
+    width: 83.33333333333333%
+  }
+  .container .cols.col-11 {
+    width: 91.66666666666667%
+  }
+  .container .cols.col-12 {
+    width: 100%
+  }
+}
+@media screen and (min-width:850px) and (max-width:991px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%
+  }
+  .container .cols.col-2 {
+    width: 16.66666666666667%
+  }
+  .container .cols.col-3 {
+    width: 25%
+  }
+  .container .cols.col-4 {
+    width: 33.33333333333333%
+  }
+  .container .cols.col-5 {
+    width: 41.66666666666667%
+  }
+  .container .cols.col-6 {
+    width: 50%
+  }
+  .container .cols.col-7 {
+    width: 58.33333333333333%
+  }
+  .container .cols.col-8 {
+    width: 66.66666666666667%
+  }
+  .container .cols.col-9 {
+    width: 75%
+  }
+  .container .cols.col-10 {
+    width: 83.33333333333333%
+  }
+  .container .cols.col-11 {
+    width: 91.66666666666667%
+  }
+  .container .cols.col-12 {
+    width: 100%
+  }
+}
+@media screen and (min-width:991px) and (max-width:1023px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%
+  }
+  .container .cols.col-2 {
+    width: 16.66666666666667%
+  }
+  .container .cols.col-3 {
+    width: 25%
+  }
+  .container .cols.col-4 {
+    width: 33.33333333333333%
+  }
+  .container .cols.col-5 {
+    width: 41.66666666666667%
+  }
+  .container .cols.col-6 {
+    width: 50%
+  }
+  .container .cols.col-7 {
+    width: 58.33333333333333%
+  }
+  .container .cols.col-8 {
+    width: 66.66666666666667%
+  }
+  .container .cols.col-9 {
+    width: 75%
+  }
+  .container .cols.col-10 {
+    width: 83.33333333333333%
+  }
+  .container .cols.col-11 {
+    width: 91.66666666666667%
+  }
+  .container .cols.col-12 {
+    width: 100%
+  }
+}
+@media only screen and (min-width:1024px) and (max-width:1199px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%
+  }
+  .container .cols.col-2 {
+    width: 16.66666666666667%
+  }
+  .container .cols.col-3 {
+    width: 25%
+  }
+  .container .cols.col-4 {
+    width: 33.33333333333333%
+  }
+  .container .cols.col-5 {
+    width: 41.66666666666667%
+  }
+  .container .cols.col-6 {
+    width: 50%
+  }
+  .container .cols.col-7 {
+    width: 58.33333333333333%
+  }
+  .container .cols.col-8 {
+    width: 66.66666666666667%
+  }
+  .container .cols.col-9 {
+    width: 75%
+  }
+  .container .cols.col-10 {
+    width: 83.33333333333333%
+  }
+  .container .cols.col-11 {
+    width: 91.66666666666667%
+  }
+  .container .cols.col-12 {
+    width: 100%
+  }
+}
+@media only screen and (min-width:1199px) and (max-width:1379px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%
+  }
+  .container .cols.col-2 {
+    width: 16.66666666666667%
+  }
+  .container .cols.col-3 {
+    width: 25%
+  }
+  .container .cols.col-4 {
+    width: 33.33333333333333%
+  }
+  .container .cols.col-5 {
+    width: 41.66666666666667%
+  }
+  .container .cols.col-6 {
+    width: 50%
+  }
+  .container .cols.col-7 {
+    width: 58.33333333333333%
+  }
+  .container .cols.col-8 {
+    width: 66.66666666666667%
+  }
+  .container .cols.col-9 {
+    width: 75%
+  }
+  .container .cols.col-10 {
+    width: 83.33333333333333%
+  }
+  .container .cols.col-11 {
+    width: 91.66666666666667%
+  }
+  .container .cols.col-12 {
+    width: 100%
+  }
+}
+@media only screen and (min-width:1379px) and (max-width:1920px) {
+  .container .cols.col-1 {
+    width: 8.333333333333333%
+  }
+  .container .cols.col-2 {
+    width: 16.66666666666667%
+  }
+  .container .cols.col-3 {
+    width: 25%
+  }
+  .container .cols.col-4 {
+    width: 33.33333333333333%
+  }
+  .container .cols.col-5 {
+    width: 41.66666666666667%
+  }
+  .container .cols.col-6 {
+    width: 50%
+  }
+  .container .cols.col-7 {
+    width: 58.33333333333333%
+  }
+  .container .cols.col-8 {
+    width: 66.66666666666667%
+  }
+  .container .cols.col-9 {
+    width: 75%
+  }
+  .container .cols.col-10 {
+    width: 83.33333333333333%
+  }
+  .container .cols.col-11 {
+    width: 91.66666666666667%
+  }
+  .container .cols.col-12 {
+    width: 100%
+  }
+  .contacts .adress {
+    width: 90%;
+    display: inline-block
+  }
+  .contacts .adress h2 {
+    font-size: 2em;
+    margin: .4em 0 .4em 0
+  }
+  .contacts .adress p {
+    font-size: 1.7em
+  }
+  .contacts .adress i.fa-phone {
+    -webkit-transform: rotate(160deg);
+    -ms-transform: rotate(160deg);
+    transform: rotate(160deg)
+  }
 }
 .footer {
   background-color: #0041ed;
