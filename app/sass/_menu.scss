@@ -73,7 +73,20 @@
 }
 
 
+@media (min-width: 980px) and (max-width: 1125px){
 
+    .menu{
+        ul {top:37px;}
+
+        li{
+            a{
+                font-size:14px;
+                padding:8px;
+            }
+        }
+    } 
+
+}
 
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -83,7 +96,7 @@
 
         li{
             a{
-                font-size:12px;
+                font-size:10px;
                 padding:8px;
             }
         }
