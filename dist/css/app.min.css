@@ -88,6 +88,9 @@ section {
 .nameCompanyDeskTop p :nth-child(3) {
   text-transform: capitalize
 }
+.nameCompanyDeskTop p :nth-child(4) {
+  text-transform: capitalize
+}
 .nameCompanyDeskTop p :nth-child(5) {
   text-transform: capitalize
 }
